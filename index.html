@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="index.html">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i> 
+    
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Sagar Rathor</h1>
+                <h3>And I'm <span>Full Stack Developer</span></h3>
+                <p>Full Stack Web Developer skilled in MongoDB, Express.js, React.js, and Node.js (MERN) for building dynamic web applications.</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="cv">
+                    <a href="Documents/ResumeSagar.pdf" target="_blank" class="btn" id="view-cv">View CV</a>
+                    <a href="Documents/ResumeSagar.pdf" download="Sagar_Rathor_CV.pdf" class="btn">Download CV </a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="Images/my_pic.png" alt="profile-pic" width="300px">
+            </div>
+        </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/my_pic.png" alt="about-pic" width="300px">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer!</h3>
+            <p>I’m a Full Stack Web Developer skilled in the MERN stack—MongoDB, Express.js, React.js, and Node.js. I specialize in building dynamic, responsive, and user-friendly web applications with seamless integration between frontend and backend. Passionate about clean code and scalable solutions, I aim to deliver powerful digital experiences that combine performance and creativity.
+</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+    <section class="services" id="services">
+        <h2 class="heading">
+            Our <span>Services</span>
+        </h2>
+        <div class="service-container">
+        <div class="service-box">
+            <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>"I deliver end-to-end web solutions, from architecting scalable Node.js/Express.js backends and MongoDB databases to creating the client-side using React.js. This approach ensures a seamless, high-performance, and feature-rich application."</p>
+                <a href="#" class="btn">Read More</a>       
+        </div>
+        <div class="service-box">
+            <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>"I craft dynamic, single-page user experiences using React.js for efficient component-based architecture. The frontend is styled and made fully responsive using modern HTML5, CSS3, and JavaScript techniques."</p>
+                <a href="#" class="btn">Read More</a>       
+        </div>
+        <div class="service-box">
+            <i class="fa-solid fa-code"></i>
+                <h3>Backend Development</h3>
+                <p>"I build robust, scalable backends using Node.js and Express.js to manage server-side logic and RESTful APIs. Data is efficiently stored and managed using MongoDB for flexible, high-performance database solutions."</p>
+                <a href="#" class="btn">Read More</a>       
+        </div>
+        </div>
+     </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">
+            Latest <span>Projects</span>
+        </h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Images/amazon.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Amazon Design</h4>
+                    <p>A landing Page Of Amazon Site.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/linkdin.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Linkdin Design</h4>
+                    <p>A landing Page Of LinkdIn Site.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Images/tech.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>I create modern web applications using React.js, JavaScript, HTML, and CSS with clean, reusable components.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <div class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Sagar Rathor | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i> &nbsp;&nbsp;
+            Back to Top</a>
+        </div>
+     </footer>
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
